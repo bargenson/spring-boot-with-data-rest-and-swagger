@@ -1,16 +1,14 @@
-package com.edgenda.bnc.skillsmanager.model;
+package com.edgenda.bnc.eventservice.model;
 
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-import java.util.List;
 
 @Data
 @Entity
-public class Employee {
+public class User {
 
     @Id
     @GeneratedValue
@@ -21,8 +19,5 @@ public class Employee {
     private String lastName;
 
     private String email;
-
-    @ManyToMany(mappedBy = "employees")
-    private List<Skill> skills;
 
 }

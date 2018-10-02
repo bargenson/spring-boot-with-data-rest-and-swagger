@@ -1,4 +1,4 @@
-package com.edgenda.bnc.skillsmanager;
+package com.edgenda.bnc.eventservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,9 +9,9 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @Import(SpringDataRestConfiguration.class)
-public class SkillsManagerApplication {
+public class EventServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SkillsManagerApplication.class, args);
+		SpringApplication.run(EventServiceApplication.class, args);
 	}
 }
