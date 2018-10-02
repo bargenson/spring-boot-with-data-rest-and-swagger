@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.edgenda.bnc</groupId>
-	<artifactId>event-service</artifactId>
+	<artifactId>skills-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>event-service</name>
+	<name>skills-manager</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

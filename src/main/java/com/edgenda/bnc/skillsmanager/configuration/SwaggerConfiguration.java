@@ -1,4 +1,4 @@
-package com.edgenda.bnc.eventservice.configuration;
+package com.edgenda.bnc.skillsmanager.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ public class SwaggerConfiguration {
     public Docket docket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .paths(PathSelectors.regex("^/events(/.*)?$"))
+                .paths(PathSelectors.regex("^/(employees|skills)(/.*)?$"))
                 .build();
     }
 
